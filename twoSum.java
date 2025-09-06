@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main
+{
+    static int[] twoSum(int[] arr, int target){
+        int ans = 0;
+        for(int i = 0;i<arr.length;i++){
+            for(int j = i+1;j<arr.length;j++){
+                if(arr[i] + arr[j] == target){
+                    return new int[]{i,j};
+                }
+            }
+        }
+        return null;
+    }
+   
+	public static void main(String[] args) {
+	    int[] arr = {1,2,3,4,5,0};
+	    int target = 9;
+	    System.out.println("Two sum : "+ Arrays.toString(twoSum(arr,target)));
+	
+		
+
+	}
+}
