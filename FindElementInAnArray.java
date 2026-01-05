@@ -1,6 +1,6 @@
 // Find Element in an Array
 import java.util.*;
-public class spanArray
+public class findElement
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
